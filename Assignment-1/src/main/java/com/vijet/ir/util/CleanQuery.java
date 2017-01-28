@@ -43,7 +43,7 @@ public class CleanQuery {
 		query.trim();
 		query = query.replaceAll(",", "");
 		query = query.replaceAll("\\.", "");
-		query = query.replaceAll("[^a-zA-Z0-9 ]", "");
+		query = query.replaceAll("[^a-zA-Z1-9 ]", "");
 //		
 		List<String> queryStringList = new LinkedList<String>(Arrays.asList(query.split(" ")));
 		ListIterator<String> strIter = queryStringList.listIterator();

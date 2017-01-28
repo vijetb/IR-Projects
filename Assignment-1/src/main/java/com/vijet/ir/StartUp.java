@@ -33,12 +33,9 @@ public class StartUp {
 			System.exit(1);
 		} 
 		System.out.println("Client is successfully connected to Elasticserver!!!");
-		
-//		elasticServerClient.printDocLengthOfAllDocuments();
-//		System.exit(1);
-		documents = new IndexDocuments(FOLDER_PATH, elasticServerClient);
-		documents.indexDocuments();
-		System.out.println("__Indexing of document complete!___");
+//		documents = new IndexDocuments(FOLDER_PATH, elasticServerClient);
+//		documents.indexDocuments();
+//		System.out.println("__Indexing of document complete!___");
 //		
 //		System.exit(1);
 		
@@ -91,7 +88,7 @@ public class StartUp {
 //			scoreEngine.generateBM25Score(queryTerms);
 //		}
 		
-		//UNIGRAM LAPLACE
+//		//UNIGRAM LAPLACE
 //		queryIter = queries.listIterator();
 //		while(queryIter.hasNext()){
 //			StringBuilder query = new StringBuilder(queryIter.next());
